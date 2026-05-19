@@ -3,8 +3,8 @@ prompt_toolkit is a library for building powerful interactive command line
 applications in Python.}
 
 Name:           python-prompt-toolkit
-Version:        3.0.38
-Release:        4%{?dist}
+Version:        3.0.41
+Release:        1%{?dist}
 Summary:        Library for building powerful interactive command line applications in Python
 License:        BSD-3-Clause
 URL:            https://github.com/prompt-toolkit/python-prompt-toolkit
@@ -52,6 +52,10 @@ Recommends:     python3-pygments
 
 
 %changelog
+* Thu Apr 09 2026 Kseniia Nivnia <knivnia@redhat.com> - 3.0.41-1
+- Update to 3.0.41
+  Resolves: RHEL-162818
+
 * Tue Jan 30 2024 Major Hayden <major@mhtx.net> - 3.0.38-4
 - Bump revision after adding gating.yaml
 
